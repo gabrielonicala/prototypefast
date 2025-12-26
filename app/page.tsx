@@ -166,7 +166,9 @@ export default function Home() {
                 <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full text-sm font-medium">Neon</span>
               </div>
               <a
-                href="#"
+                href="https://quillia.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-purple-600 dark:hover:text-purple-400 font-semibold transition-colors mt-auto"
               >
                 View Live →
