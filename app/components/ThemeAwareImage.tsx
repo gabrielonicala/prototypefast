@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useTheme } from './ThemeProvider';
+import { useEffect, useState } from 'react';
 
 interface ThemeAwareImageProps {
   lightSrc: string;
@@ -21,7 +22,14 @@ export default function ThemeAwareImage({
   sizes,
 }: ThemeAwareImageProps) {
   const { theme } = useTheme();
-  const src = theme === 'dark' ? darkSrc : lightSrc;
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Use light theme as default during SSR to prevent hydration mismatch
+  const src = mounted && theme === 'dark' ? darkSrc : lightSrc;
 
   if (fill) {
     return (
