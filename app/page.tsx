@@ -294,7 +294,7 @@ export default function Home() {
 
             <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 border border-gray-200 dark:border-gray-600">
               <p className="text-gray-700 dark:text-gray-300 text-center">
-                <span className="font-semibold">Refund policy:</span> If I can't deliver what was scoped, you get a full refund.
+                <span className="font-semibold">Refund policy:</span> If I can&apos;t deliver what was scoped, you get a full refund.
               </p>
             </div>
           </div>
@@ -413,10 +413,10 @@ export default function Home() {
           </div>
           <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-md transition-all">
             <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-              What if you can't deliver what I need?
+              What if you can&apos;t deliver what I need?
             </h3>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              If I can't build what we agreed on, you get a full refund. No questions asked.
+              If I can&apos;t build what we agreed on, you get a full refund. No questions asked.
             </p>
           </div>
           <div className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-md transition-all">
