@@ -8,13 +8,13 @@ export default function Home() {
     <main className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
       {/* Header */}
       <header className="border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
-          <div className="text-xl font-bold gradient-text">prototypefast.com</div>
-          <div className="flex items-center gap-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-5 flex justify-between items-center gap-2">
+          <div className="text-sm sm:text-xl font-bold gradient-text truncate">prototypefast.com</div>
+          <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
             <ThemeToggle />
             <SmoothScrollLink
               href="#contact"
-              className="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-200"
+              className="px-3 py-1.5 sm:px-6 sm:py-2.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-sm sm:text-base font-medium hover:shadow-lg hover:scale-105 transition-all duration-200 whitespace-nowrap"
             >
               Get Started
             </SmoothScrollLink>
@@ -23,20 +23,20 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-24 text-center overflow-hidden bg-gradient-to-b from-gray-200 via-gray-100 to-white dark:from-gray-800 dark:via-gray-800 dark:to-gray-900">
-        <div className="max-w-6xl mx-auto px-6 relative">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+      <section className="relative py-12 sm:py-24 text-center overflow-hidden bg-gradient-to-b from-gray-200 via-gray-100 to-white dark:from-gray-800 dark:via-gray-800 dark:to-gray-900">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
             <span className="gradient-text">Rapid MVP</span>
             <br />
             Development
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-10 max-w-3xl mx-auto leading-relaxed px-2">
             I build working prototypes in <span className="font-semibold text-gray-900 dark:text-white">1-2 weeks</span> so you can validate your idea
             without months of development.
           </p>
           <SmoothScrollLink
             href="#contact"
-            className="inline-block px-10 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200"
+            className="inline-block px-6 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg text-base sm:text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200"
           >
             Get Started →
           </SmoothScrollLink>
@@ -44,13 +44,13 @@ export default function Home() {
       </section>
 
       {/* What I Do */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">What I Do</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24">
+        <div className="text-center mb-8 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">What I Do</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
         </div>
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold mb-8 text-center">
+          <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-center">
             Fast MVP Development for Founders
           </h3>
           <div className="space-y-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -89,9 +89,9 @@ export default function Home() {
       </section>
 
       {/* Recent Projects */}
-      <section className="max-w-6xl mx-auto px-6 py-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold mb-4">Recent Projects</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Recent Projects</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
@@ -179,9 +179,9 @@ export default function Home() {
       </section>
 
       {/* How It Works */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">How It Works</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24">
+        <div className="text-center mb-8 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">How It Works</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -237,15 +237,15 @@ export default function Home() {
       </section>
 
       {/* Pricing */}
-      <section className="max-w-6xl mx-auto px-6 py-24 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">Pricing</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+        <div className="text-center mb-8 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Pricing</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
         </div>
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-10 border border-gray-100 dark:border-gray-700">
-            <div className="text-center mb-10">
-              <div className="text-5xl font-bold gradient-text mb-2">$2,000 - $3,000</div>
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-10 border border-gray-100 dark:border-gray-700">
+            <div className="text-center mb-6 sm:mb-10">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text mb-2">$2,000 - $3,000</div>
               <p className="text-xl text-gray-600 dark:text-gray-400">per project</p>
             </div>
             
@@ -304,9 +304,9 @@ export default function Home() {
       </section>
 
       {/* What You Get */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">What You Get</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24">
+        <div className="text-center mb-8 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">What You Get</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
         </div>
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
@@ -360,9 +360,9 @@ export default function Home() {
       </section>
 
       {/* Tech Stack */}
-      <section className="max-w-6xl mx-auto px-6 py-24 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold mb-4">Tech Stack</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Tech Stack</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
           <p className="text-gray-700 dark:text-gray-300 text-lg max-w-2xl mx-auto">
             I use modern, well-documented tools and AI-assisted development to move fast without sacrificing quality.
@@ -381,9 +381,9 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">FAQ</h2>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24">
+        <div className="text-center mb-8 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">FAQ</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
         </div>
         <div className="max-w-3xl mx-auto space-y-4">
@@ -433,16 +433,16 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="max-w-6xl mx-auto px-6 py-24 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
+      <section id="contact" className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-24 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-4">Contact</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-          <p className="text-2xl mb-12 text-gray-700 dark:text-gray-300">Ready to build your MVP?</p>
-          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-10 border border-gray-100 dark:border-gray-700">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Contact</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6 sm:mb-8"></div>
+          <p className="text-xl sm:text-2xl mb-8 sm:mb-12 text-gray-700 dark:text-gray-300 px-2">Ready to build your MVP?</p>
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-10 border border-gray-100 dark:border-gray-700">
             <div className="space-y-6">
               <a
                 href="mailto:contact@prototypefast.com"
-                className="block w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-200"
+                className="block w-full px-4 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold text-sm sm:text-lg hover:shadow-lg hover:scale-105 transition-all duration-200 break-all sm:break-normal"
               >
                 📧 contact@prototypefast.com
               </a>
@@ -451,7 +451,7 @@ export default function Home() {
                 href="https://app.cal.eu/prototypefast"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full px-8 py-4 bg-white dark:bg-gray-700 border-2 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white rounded-lg font-semibold text-lg hover:border-blue-600 dark:hover:border-blue-500 hover:shadow-lg transition-all duration-200"
+                className="block w-full px-4 sm:px-8 py-3 sm:py-4 bg-white dark:bg-gray-700 border-2 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white rounded-lg font-semibold text-sm sm:text-lg hover:border-blue-600 dark:hover:border-blue-500 hover:shadow-lg transition-all duration-200"
               >
                 📅 Schedule a Call
               </a>
